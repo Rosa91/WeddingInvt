@@ -656,6 +656,7 @@ I love you, Not only for what 					you are, But for what i am when i am with you
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!-- Required-js -->
 	<script src="js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/responsiveslides.min.js"></script>
+	 <script src="js/wishes.json"></script>
 							<script>
 								// You can also use "$(window).load(function() {"
 								$(function () {
@@ -814,7 +815,7 @@ function myFunction() {
 				
 			$(document).ready(function ()
 			{               
-			 $.getJSON('assets/js/wishes.json', function(res) {
+			 $.getJSON('js/wishes.json', function(res) {
                  data = res;    
                  start();
             });
